@@ -1,0 +1,188 @@
+/* Estilos gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(36, 100%, 99%);
+    color: hsl(236, 13%, 42%);
+
+   
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: 000(240, 100%, 5%);
+    color: white;
+    ;
+  }
+  
+  header .logo {
+    width: 70px;
+    height: auto;
+    margin-left: 80px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 786px;
+    color: hsl(236, 13%, 42%)
+
+
+  }
+  
+  header nav ul li {
+    cursor: pointer;
+
+  }
+  
+  /* Conteúdo principal */
+  .main-content {
+    display: flex;
+    gap: 3px;
+    padding: 40px;
+  }
+  
+  .left-column {
+    flex: 4;
+    
+  }
+
+  .text-content {
+    display: flex; 
+    align-items: center; 
+    margin-left: 100px;
+    
+  }
+  
+  .text-content p {
+    width: 34.5%;
+    
+    
+  }
+
+  .text-content h1 {
+    font: url(Inter-ExtraBold);
+  }
+
+  
+  .left-column img {
+    width: 80%;
+    height: auto;
+    margin-left: 80px;
+    
+  }
+  
+  .left-column h1 {
+    color: hsl(240, 100%, 5%);
+    font-size: 3.5rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: 150px;
+    width: 30%;
+  }
+  
+  .left-column p {
+    margin: 2px 0;
+    margin-top: 30px;
+    margin-right: 27px;
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    
+  }
+  
+  .left-column button {
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 535px;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: -60px;
+  }
+  
+  .right-column {
+    flex: 0.9;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 30px;
+    margin-right: 370px;
+    height: 450px;
+  }
+  
+  .right-column h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 1.9rem;
+  }
+  
+  .right-column article {
+    margin-bottom: 6px;
+    width: 300px;
+  }
+  
+  .right-column article h3 {
+    font-size: 1.3rem;
+  }
+  
+  /* Pré-visualização de artigos */
+  .article-preview {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .article-preview article {
+    flex: 1;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    top: -90px
+  }
+  
+  .article-preview article img {
+    width: 20%;
+    height: auto;
+    border-radius: 0px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .article-preview article span {
+    font-size: 2rem;
+    font-weight: 800;
+    color: hsl(5, 85%, 63%);
+    margin-right: 5px;
+  }
+  
+  .article-preview article h3 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    line-height: 0;
+    color: hsl(240, 100%, 5%);
+  }
+  
+  .article-preview article p {
+    margin-top: 10px;
+    color: hsl(240, 100%, 5%);
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: hsl(35, 77%, 62%);
+    text-decoration: none;
+  }
+  
